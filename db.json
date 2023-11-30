@@ -2,63 +2,59 @@
     "users": [
       {
         "id": 1,
-        "name": "Gertrudis Tatterton",
-        "age": 18,
-        "email": "gtatterton0@ehow.com"
+        "username": "Gertrudis Tatterton",
+        "avatar": "https://www.shareicon.net/data/512x512/2016/09/15/829459_man_512x512.png",
+        "email": "gtatterton0@ehow.com",
+        "password": "123"
       },
       {
         "id": 2,
-        "name": "Gail Newbatt",
-        "age": 53,
-        "email": "gnewbatt1@un.org"
+        "username": "Gail Newbatt",
+        "avatar": "https://www.shareicon.net/data/512x512/2016/09/15/829459_man_512x512.png",
+        "email": "gnewbatt1@un.org",
+        "password": "123"
       },
       {
         "id": 3,
-        "name": "Walliw Wilstead",
-        "age": 49,
-        "email": "wwilstead2@tripadvisor.com"
-      },
+        "username": "arup",
+        "avatar": "https://www.shareicon.net/data/512x512/2016/09/15/829459_man_512x512.png",
+        "email": "arup@gmail.com",
+        "password": "123"
+      }
+    ],
+    "forum":[
       {
-        "id": 4,
-        "name": "Abran Proback",
-        "age": 29,
-        "email": "aproback3@theglobeandmail.com"
-      },
-      {
-        "id": 5,
-        "name": "Roda Chappelow",
-        "age": 31,
-        "email": "rchappelow4@oaic.gov.au"
-      },
-      {
-        "id": 6,
-        "name": "Karney Wylie",
-        "age": 22,
-        "email": "kwylie5@miitbeian.gov.cn"
-      },
-      {
-        "id": 7,
-        "name": "Cammi Pimbley",
-        "age": 63,
-        "email": "cpimbley6@nyu.edu"
-      },
-      {
-        "id": 8,
-        "name": "Gavra Manning",
-        "age": 43,
-        "email": "gmanning7@lycos.com"
-      },
-      {
-        "id": 9,
-        "name": "Zachary Seward",
-        "age": 45,
-        "email": "zseward8@oracle.com"
-      },
-      {
-        "id": 10,
-        "name": "Chucho Norssister",
-        "age": 20,
-        "email": "cnorssister9@mayoclinic.com"
+        "id": 1,
+        "question": {
+          "userAvatar": "https://www.shareicon.net/data/512x512/2016/09/15/829459_man_512x512.png",
+          "username": "JohnDoe123",
+          "questionTitle": "How to sort an array in JavaScript?",
+          "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
+          "language": "JavaScript",
+          "upvotes": 10,
+          "answers": 3,
+          "postedDate": "2023-05-30"
+        },
+        "answers": [
+          {
+            "userAvatar": "https://www.shareicon.net/data/512x512/2016/09/15/829459_man_512x512.png",
+            "username": "JaneSmith456",
+            "answerText": "To sort an array in JavaScript, you can use the built-in 'sort' method...",
+            "postedDate": "2023-05-31"
+          },
+          {
+            "userAvatar": "https://www.shareicon.net/data/512x512/2016/09/15/829459_man_512x512.png",
+            "username": "SamJohnson789",
+            "answerText": "Another approach to sorting an array in JavaScript is by using a custom comparison function...",
+            "postedDate": "2023-06-01"
+          },
+          {
+            "userAvatar": "https://www.shareicon.net/data/512x512/2016/09/15/829459_man_512x512.png",
+            "username": "EmilyBrownXYZ",
+            "answerText": "I recommend using a popular JavaScript library such as 'Lodash' for sorting arrays...",
+            "postedDate": "2023-06-01"
+          }
+        ]
       }
     ]
   }
